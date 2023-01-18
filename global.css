@@ -1,0 +1,63 @@
+:root {
+  /* --color-primary: #add8e6; */
+  --color-disabled: #95b7c0;
+  --color-primary: #52badd;
+  --color-secondary: #e99c0e;
+  --color-background: rgba(255, 255, 255, 0.9);
+  --color-background-secondary: rgba(160, 213, 231, 0.8);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+html,
+body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+/* button {
+  all: unset;
+  cursor: pointer;
+} */
+
+button {
+  padding: 0.25rem 0.5rem;
+  border: 1px solid var(--color-primary);
+  background-color: var(--color-primary);
+  color: white;
+  font-size: 0.9rem;
+  cursor: pointer;
+  /* font-weight: bold; */
+}
+button:not([disabled]):hover {
+  border: 1px solid var(--color-secondary);
+  background-color: var(--color-secondary);
+}
+button[disabled] {
+  background-color: var(--color-disabled);
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+  border-bottom: 1px dotted blue;
+}
+
+a:hover,
+a:focus {
+  border-bottom: 1px solid blue;
+}

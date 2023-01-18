@@ -1,0 +1,114 @@
+{
+  "title": "Hydrological Soundscapes",
+  "languages": {
+    "select": "Select a language",
+    "en": "English",
+    "fr": "French"
+  },
+  "app_welcome": {
+    "header": "Welcome to Hydrological Soundscapes!",
+    "tutorial_invite": "You can go through a quick tutorial on how to use the app or get started immediatly.",
+    "tutorial_btn": "Tutorial",
+    "start_btn": "Get started"
+  },
+  "app_description": {
+    "label": "Description",
+    "why": "This app allows exploring the diversity of river hydrological regimes thanks to data visualisation and sonification.",
+    "how": {
+      "1": "By clicking on one of the thousand hydrometric stations measuring river flow all around the world, you can",
+      "2": "visualise",
+      "3": "the hydrological regime in bar charts and",
+      "4": "listen to",
+      "5": "the corresponding melody created from the data."
+    },
+    "what": "Four hydrological variables are used to characterise the hydrological regime:",
+    "average_flow": {
+      "1": "The average flow",
+      "2": "controls the tempo of the music."
+    },
+    "monthly_mean_flow": {
+      "1": "Monthly flows",
+      "2": "control the pitch and the volume of the piano."
+    },
+    "monthly_max_flow": {
+      "1": "Monthly frequency of annual daily maxima",
+      "2": "similarly control the bass notes."
+    },
+    "monthly_min_flow": {
+      "1": "Monthly frequency of annual 30-days averaged minima",
+      "2": "control the notes of the",
+      "3": "hang drum.",
+      "4": "https://en.wikipedia.org/wiki/Hang_(instrument)"
+    },
+    "headphone": "Headphones are recommended to fully enjoy this app!",
+    "tutorial_btn": "Tutorial"
+  },
+  "app_credits": {
+    "label": "Credits",
+    "funding": {
+      "1": "This project has received funding from from the European Union’s Horizon 2020 research and innovation programme under the Marie Sklodowska-Curie grant agreement No",
+      "2": "835496"
+    },
+    "data": {
+      "1": "The hydrological data used in this app are part of the",
+      "2": "GSIM dataset",
+      "3": "https://doi.org/10.1594/PANGAEA.887470"
+    },
+    "samples": "Piano and bass samples sounds are from",
+    "source": "Source code is available on",
+    "designed": {
+      "1": "Designed by",
+      "2": "and"
+    },
+    "coded": "Coded by"
+  },
+  "tutorial": {
+    "1": "On this map, the pins represent hydrometric stations monitoring river flow  all around the world.",
+    "2": "A click on a hydrometric station will load the associated data that you can explore visually and musically.",
+    "3": "Here is the bar charts panel where you can see the seasonality of average, high and low flows as well as the overall average flow.",
+    "4": "You can click here to show/hide the bar charts panel.",
+    "5": "Here, you can play/pause and stop the music once a station is selected. As the music plays, the bar charts will animate to highlight which month you're currently listening to.",
+    "6": "There are different options you can play with to modify the melody. A click here shows/hides the panel with all the options.",
+    "7": "All done! You're good to go!"
+  },
+  "options": {
+    "volume": "General volume",
+    "toggle_instruments": {
+      "label": "Toggle instruments",
+      "piano": "Piano (monthly flows)",
+      "bass": "Bass (High flows)",
+      "hang": "Hang drum (Low flows)",
+      "drum": "Drums"
+    },
+    "music_scales": {
+      "label": "Select a music scale",
+      "Am": "Minor scale in A",
+      "A": "Major scale in A",
+      "C_penta": "Pentatonic scale in C",
+      "Arabic_1_D": "Oriental scale in D"
+    },
+    "drum_pattern": {
+      "label": "Select a drum pattern",
+      "blues": "Blues",
+      "arabic": "Arabic",
+      "flamenco": "Flamenco",
+      "funk": "Funk"
+    },
+    "tempo": {
+      "label": "Tempo",
+      "mapped": "Mapped to average flow",
+      "select": "Choose a tempo"
+    },
+    "pitch_invert": {
+      "1": "High monthly flow = low note",
+      "2": "Invert this (piano only)"
+    }
+  },
+  "charts": {
+    "average_flow": "Average flow (m&#179;/s)",
+    "monthly_mean_flow": "Monthly flow (% of total annual flow)",
+    "monthly_max_flow": "Annual largest flood falls in ...",
+    "monthly_min_flow": "Annual lowest flow falls in ...",
+    "select_station": "Click on a hydrometric station on the map"
+  }
+}
